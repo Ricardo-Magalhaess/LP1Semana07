@@ -20,7 +20,6 @@ namespace GameUnits
         {
             get;
         }
-
         public override string ToString()
         {
             return  $"{GetType().Name}- Hp={Health}" + 
